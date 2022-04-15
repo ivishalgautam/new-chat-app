@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Demo ChatRoom</title>
+  </head>
+
+  <body>
+    <section class="chat-box">
+      <div class="logo">
+        <div class="info">
+          <img src="/chatlogo.png" alt="" />
+          <h1>Demo ChatRoom</h1>
+        </div>
+        <div class="typing">
+          <p class="typing_message"></p>
+        </div>
+      </div>
+
+      <div class="message-area"></div>
+      <div>
+        <textarea
+          id="textarea"
+          cols="30"
+          rows="1"
+          placeholder="Write a message..."
+        ></textarea>
+      </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>

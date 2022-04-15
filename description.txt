@@ -1,0 +1,3 @@
+I build a Real-time chatroom app. which is based on :-
+1. Nodejs
+2. Socket.IO which is a event-driven JavaScript library for real-time web applications. It enables real-time, bi-directional communication between web clients and servers.
